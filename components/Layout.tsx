@@ -38,7 +38,7 @@ const Navbar: React.FC = () => {
         
         {/* Logo & Brand */}
         <Link to="/" className="inline-flex items-center gap-3.5 group relative z-20">
-          <Logo size={40} />
+          <Logo size={56} />
           <div className="flex flex-col justify-center">
             <span className="text-xl font-heading font-black tracking-tighter text-white leading-none group-hover:text-blue-400 transition-colors uppercase">
               BCCS
@@ -157,14 +157,14 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-6 mb-8">
           <div className="lg:col-span-2 md:pr-4">
             <Link to="/" className="inline-flex items-center gap-3 mb-3 group">
-               <Logo size={36} />
+               <Logo size={48} />
                <div className="flex flex-col">
                  <span className="font-heading text-lg font-black tracking-tight text-white leading-none uppercase">BCCS</span>
                  <span className="text-[9px] font-bold text-zinc-500 uppercase tracking-widest mt-0.5">Working Class Web3</span>
                </div>
             </Link>
             <p className="text-zinc-500 text-[11px] font-light leading-relaxed mb-4 tracking-tight max-w-sm">
-              Community-first platform for tradespeople and working-class creators. Built by workers, powered by knowledge.
+              Community-first platform for tradespeople and working-class creators. Built by workers, owned by community.
             </p>
             <div className="flex items-center gap-3 p-2.5 rounded-xl bg-white/5 border border-white/5 text-zinc-400 hover:text-white transition-all w-fit">
               <Mail size={12} className="text-blue-400" />
@@ -206,8 +206,8 @@ const Footer: React.FC = () => {
         <div className="pt-4 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="text-[9px] text-zinc-600 font-bold uppercase tracking-widest">© {new Date().getFullYear()} Blue Collar Crypto Society</div>
           <div className="flex gap-4 text-[9px] text-zinc-600 font-bold uppercase tracking-widest">
-            <a href="#" className="hover:text-zinc-300 transition-colors">Privacy</a>
-            <a href="#" className="hover:text-zinc-300 transition-colors">Terms</a>
+            {/* <a href="#" className="hover:text-zinc-300 transition-colors">Privacy</a>
+            <a href="#" className="hover:text-zinc-300 transition-colors">Terms</a> */}
           </div>
         </div>
       </div>

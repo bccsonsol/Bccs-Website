@@ -17,7 +17,7 @@ Blue Collar Crypto Society (BCCS) is a community-first platform created to bridg
 - **Styling**: Tailwind CSS (Utility-first, responsive design)
 - **Icons**: Lucide React
 - **Animations**: CSS Transitions + Intersection Observer for scroll-reveal effects
-- **Routing**: React Router (HashRouter for compatibility)
+- **Routing**: React Router (BrowserRouter for clean URLs)
 
 ## 📂 Project Structure
 
@@ -41,4 +41,3 @@ The project is optimized for **Vercel** with a custom `vercel.json` for clean UR
 ---
 
 *© 2025 Blue Collar Crypto Society. Built for the working class.*
-# Bccs-Website
